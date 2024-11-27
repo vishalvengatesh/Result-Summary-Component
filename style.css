@@ -1,0 +1,74 @@
+#card {
+    background-color: hsl(241, 81%, 54%);
+    /* border-radius: 0 0 20px 20px; */
+}
+
+#title {
+    color: hsl(241, 100%, 89%);
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+#circle>p {
+    font-size: x-small;
+    color: hsl(241, 100%, 89%);
+}
+
+#circle>h1 {
+    color: white;
+}
+
+#result {
+    font-size: small;
+    color: hsl(241, 100%, 89%);
+}
+
+#total {
+    color: hsl(241, 100%, 89%);
+}
+
+#box-1 {
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+#Reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#box-2 {
+    background-color: hsl(39, 100%, 56%, 0.2);
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+}
+
+#box-3 {
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#box-4 {
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+}
+#button{
+    background-color: hsl(224, 30%, 27%);
+}
+@media(min-width:427px){
+    #main{
+        margin-top: 200px;
+        box-shadow: 3px 3px 10px 3px hsl(241, 100%, 89%);
+    }
+}
